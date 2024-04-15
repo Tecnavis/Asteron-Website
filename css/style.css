@@ -95,10 +95,10 @@
     transition: 0.5s;
 }
 
-.topbar a:hover,
+/* .topbar a:hover,
 .topbar a i:hover {
     color: var(--bs-secondary) !important;
-}
+} */
 
 
 @media (max-width: 768px) {
