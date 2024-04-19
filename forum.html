@@ -27,6 +27,45 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+        <style>
+
+
+.card-container {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between; /* Adjust alignment as needed */
+                            flex-wrap: wrap; /* Allow cards to wrap */
+                          }
+                          .card {
+                            width: calc(45% - 20px); /* Set card width to 45% of container width minus margins */
+                            /* background-color: #f0f0f0; */
+                            padding: 20px;
+                            margin: 10px;
+                            border-radius: 10px;
+                            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                            width: 800px;
+                            height: auto;
+                          }
+                          h2 {
+                            color: #333;
+                            font-size: 20px;
+                            margin-bottom: 10px;
+                          }
+                          ul {
+                            list-style-type: none;
+                            padding: 0;
+                          }
+                          li {
+                            margin-bottom: 5px;
+                          }
+                        
+                          /* Media query for mobile view */
+                          @media screen and (max-width: 768px) {
+                            .card {
+                              width: calc(100% - 20px); /* Set card width to 100% of container width minus margins */
+                            }
+                          }
+                        </style>
     </head>
 
     <body>
@@ -163,62 +202,89 @@
                 <h1 class="mb-4">Account opening forum </h1>
                 <div style="text-align: center;">
                     <p class="mb-0">
-                        Asteron is committed to upholding the highest standards of integrity, ethics, and compliance with all applicable anti-money laundering and counter-terrorism financing laws and regulations. This Anti-Money Laundering (AML) Policy outlines our commitment to preventing and detecting any attempts to use our services for illicit activities, such as money laundering, terrorism financing, or any other unlawful activities.</p>
-                    
-                    <p>Compliance Officer<br>
-                    Asteron has designated a Compliance Officer responsible for overseeing the implementation and effectiveness of our AML program. The Compliance Officer serves as the point of contact for all AML-related matters and ensures ongoing compliance with relevant laws and regulations.</p>
-                    
-                    <p>Customer Due Diligence (CDD)<br>
-                    We perform thorough customer due diligence measures to establish the identity and legitimacy of our customers. This includes obtaining and verifying identification information, such as government-issued identification documents, proof of address, and any other necessary documentation.</p>
-                    
-                     
-                    <p>     Know Your Customer (KYC)<br>
-                        We adhere to a strict Know Your Customer (KYC) policy, which involves obtaining sufficient information to understand the nature of our customers' business, their source of funds, and their intended use of our services. We may request additional documentation or conduct enhanced due diligence for higher-risk transactions or customers.
-                    </p>
-                    
-                         
-                    <p>  Reporting Suspicious Activities<br>
-                        Asteron is committed to promptly reporting any suspicious activities or transactions that may be indicative of money laundering, terrorism financing, or other unlawful acts. Our staff is trained to recognize red flags and report suspicious activities to the appropriate authorities.
-                    </p>
-                    
-                         
-                    <p>  Record Keeping<br>
-                        We maintain accurate and up-to-date records of all customer information, transactions, and due diligence documentation in compliance with applicable laws and regulations. These records are securely stored and made available to regulatory authorities upon request.
-  
-                        </p>
-                    
-                         
-                    <p> Ongoing Monitoring<br>
-                        We employ ongoing monitoring procedures to detect and prevent any suspicious or potentially unlawful activities. This includes regularly reviewing customer accounts, transactions, and activities for any anomalies or deviations from expected patterns.
-                        </p>
-                    
-                         
-                    <p>Employee Training and Awareness<br>
-                        Asteron provides comprehensive training to all employees to ensure they understand their responsibilities and obligations regarding AML compliance. Our staff is regularly updated on emerging AML trends, regulatory changes, and best practices to enhance their knowledge and awareness.
-                        </p>
-
-
-                        <p>Cooperation with Authorities<br>
-                            We maintain a cooperative relationship with regulatory authorities and law enforcement agencies. We will provide full assistance, including sharing information and records, to the extent permitted by law, to aid in any investigations related to money laundering or terrorism financing.
-                            </p>
-
-
-                            <p> Confidentiality and Data Protection<br>
-                                We prioritize the confidentiality and protection of customer information. We implement robust data protection measures to safeguard customer data from unauthorized access, use, or disclosure.                                </p>
-
-                                <p>Compliance Review<br>
-                                    Asteron conducts periodic reviews and audits of our AML program to assess its effectiveness, identify areas for improvement, and ensure ongoing compliance with applicable laws and regulations.
-                                    </p>
-
-                                    <p>Non-Tolerance Policy<br>
-                                        Asteron has a zero-tolerance policy towards any involvement in money laundering, terrorism financing, or any other unlawful activities. We will take immediate action, including reporting suspicious activities, freezing accounts, and terminating relationships, as deemed necessary to prevent and mitigate such activities.
-  
-                                        </p>
+                       
                         
-                    <!-- Repeat the pattern for other sections -->
-                    
-                    <p>Review and Update<br>
-                    This AML Policy will be reviewed and updated periodically to reflect changes in regulatory requirements, industry best practices, and the evolving nature of money laundering and terrorism financing.</p>
+                        </head>
+                        <body>
+                        
+                        <div class="card-container">
+                          <div class="card">
+                            <h2>PROOF OF LEGAL EXISTENCE OF APPLICANT COMPANY</h2>
+                            <ul>
+                              <li>Valid Trade License (Min of 3 months before expiration) / (if relevant in country of incorporation) </li>
+                              <li> Memorandum and Article of Association</li>
+                              <li> Share holder Certificate</li>
+                              <li> Tax Registration Certificate</li>
+                            </ul>
+                          </div>
+                        
+                          <div class="card">
+                            <h2>PROOF OF APPLICANT PHYSICAL REGISTERED ADDRESS OR PRINCIPAL ADDRESS</h2>
+                            <ul>
+                              <li>Latest Utility Bill else </li>
+                              <li> Tenancy Contract (Registered Address as per the license)</li>
+                              <li>  Board Resolution (Stating the intension to open an account and its purpose)</li>
+                            </ul>
+                          </div>
+                          <div class="card">
+                            <h2>APPLICANT COMPANY DETAIL</h2>
+                            <ul>
+                              <li>Office telephone number’s</li>
+                              <li> Office fax number</li>
+                              <li>  Office Email ID</li>
+                              <li>   Website URL </li>
+                            </ul>
+                          </div>
+
+                          <div class="card">
+                            <h2>IDENTIFIES AND ADDRESS OF ALL AUTHORIZED PERSON IN THE COMPANY</h2>
+                            <ul>
+                              <li>Passport Copy / Visa Page of the following</li>
+                              <li>  Beneficial Owners / Shareholders</li>
+                              <li>   Person(s) who will operate the account</li>
+                            </ul>
+                          </div>
+
+
+                         
+
+
+                          <div class="card">
+                            <h2>IDENTIFIES AND DETAILS OF ALL AUTHORIZED SIGNATORIES OF THE APPLICANT COMPANY (IF DIFFERENT FROM 4)</h2>
+                            <ul>
+                              <li>Full Name(s) </li>
+                              <li>Full Detail (Designation(s), Contact Number(s), Email ID’s)</li>
+                              <li>   
+                                Supporting document showing Specimen Signature</li>
+                            </ul>
+                          </div>
+
+
+                          <div class="card">
+                            <h2>DENTITIES AND ADDRESS OF ALL PERSONS AUTHORIZED TO DEAL ON BEHALF OF THE APPLICANT COMPANY (IF DIFFERENT FROM 4 AND 5)</h2>
+                            <ul>
+                              <li>Individuals holding Powers of Attorney from the Applicant Company; and</li>
+                              <li>  Third Party mandate holders of the Applicant Company </li>
+                             
+                            </ul>
+                          </div>
+                        </div>
+
+                        <div class="card">
+                            <h2>BANK REFERENCE WHEREBY THE APPLICANT COMPANY HAS BEEN KNOWN BY BANK FOR AT LEAST TWO YEARS
+                            </h2>
+                           
+                          </div>
+
+                          <div class="card">
+                            <h2>BANK REFERENCE WHEREBY THE APPLICANT COMPANY HAS BEEN KNOWN BY BANK FOR AT LEAST TWO YEARS</h2>
+                           
+                          </div>
+                        
+                       
+
+
+
                 </div>
                 
             </div>
