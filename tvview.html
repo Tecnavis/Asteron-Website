@@ -147,7 +147,7 @@
         <div class="container-fluid bg-breadcrumb">
             <div class="container text-center py-5" style="max-width: 900px;">
                 <h3 class="text-white display-3 mb-4">Live rate</h1>
-                <p class="fs-5 text-white mb-4">Help today because tomorrow you may be the one who needs more helping!</p>
+                <p class="fs-5 text-white mb-4">Stay informed with live rates – real-time insights at your fingertips.!</p>
                 <ol class="breadcrumb justify-content-center mb-0">
                     <li class="breadcrumb-item"><a href="index.html">Home</a></li>
                     <li class="breadcrumb-item"><a href="#">Pages</a></li>
@@ -158,8 +158,27 @@
         <!-- Header End -->
 
 
-        <iframe src="https://asteron.aurify.ae/" height="200" width="300" title="Iframe Example"></iframe>
-
+        <style>
+            .iframe-container {
+                position: relative;
+                width: 100%;
+                overflow: hidden;
+                padding-top: 56.25%; /* 16:9 aspect ratio */
+            }
+            .iframe-container iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+        </style>
+        
+        <div class="iframe-container">
+            <iframe src="https://asteron.aurify.ae/" title="Iframe Example" allowfullscreen></iframe>
+        </div>
+        
+        
         
 
        <!-- Footer Start -->
